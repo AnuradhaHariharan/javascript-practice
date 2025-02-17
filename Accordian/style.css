@@ -1,0 +1,23 @@
+.accordian-header {
+    background-color: #FFF3CD;
+    padding: .2rem;
+    width: 200px;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    border: .5px solid darkgoldenrod;
+}
+
+.accordian-content {
+    text-align: center;
+    width: 200px;
+    padding: .2rem;
+    display: none;
+    border: .5px solid black;
+}
+.accordian-content.active{
+    display: block;
+}
+.accordian-header.active{
+  background-color: #FFC300;
+}
