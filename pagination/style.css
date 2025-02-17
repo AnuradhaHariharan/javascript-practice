@@ -1,0 +1,40 @@
+.product-container {
+    margin-top: 2rem;
+    display: grid  ;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.app {
+    width: 90%;
+    margin: 0 auto;
+}
+.product {
+    text-align: center;
+    border: .2px solid black;
+    border-radius: 40px;
+    padding: .5rem;
+}
+.product img {
+    height: 150px;
+}
+.product p{
+    font-size: 14px;
+}
+.pagination-container {
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.page-btn{
+    padding: .8rem;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: beige;
+    width: 50px;
+    height: 50px;
+}
+.page-btn.active{
+    background-color: bisque;
+}
