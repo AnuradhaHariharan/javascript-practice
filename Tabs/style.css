@@ -1,0 +1,9 @@
+.contents {
+    display: none;
+}
+.contents.active {
+    display: block !important;
+}
+.tab-links.active{
+    background-color: grey;
+}
